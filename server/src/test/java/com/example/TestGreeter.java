@@ -25,6 +25,19 @@ public class TestGreeter {
   }
 
   @Test
+  public void douitest()
+  {
+	   System.setProperty("webdriver.chrome.driver", "D:\\SeleniumTest\\ChromeDriver\\Chromedriver.exe");
+	    WebDriver driver = new ChromeDriver();
+		driver.get("http://localhost:8090/samplemaven/");
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("test");
+		driver.findElement(By.xpath("//input[@type='button']")).click();
+		Assert.assertTrue(driver.getPageSource().contains("Recoreded"));
+		//input[@type="button"]
+		
+  }
+
+  @Test
   public void greetShouldIncludeGreetingPhrase() {
     String someone = "World";
 
