@@ -54,8 +54,8 @@
       </goals>
       <configuration>
         <sources>
-          <source>src/java/core</source>
-          <source>src/java/gen</source>
+          <source>src/main/java/com/example</source>
+          <source>src/test/java/com/example</source>
         </sources>
       </configuration>
     </execution>
