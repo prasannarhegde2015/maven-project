@@ -24,8 +24,8 @@ public class TestGreeter {
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
-  @Test
-  public void douitest()
+  
+ /* public void douitest()
   {
 	   System.setProperty("webdriver.chrome.driver", "D:\\SeleniumTest\\ChromeDriver\\Chromedriver.exe");
 	    WebDriver driver = new ChromeDriver();
@@ -35,7 +35,7 @@ public class TestGreeter {
 		Assert.assertTrue(driver.getPageSource().contains("Recoreded"));
 		//input[@type="button"]
 		
-  }
+  }*/
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
