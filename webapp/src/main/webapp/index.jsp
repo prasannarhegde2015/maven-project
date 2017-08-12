@@ -8,6 +8,6 @@ Hello, World!
 <td bgcolor='yellow' > <input type="text"  style="background-color:Black; color:Lime;" > </td>
   </tr>
   <tr>
-<td> <input type="button" value="submit" OnClick="document.write('Recoreded')"> </td>
+<td> <input type="button" value="submit" OnClick="document.write('Recorded')"> </td>
 </tr>
 </table>
