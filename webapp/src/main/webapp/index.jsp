@@ -5,7 +5,7 @@ Hello, World!
   </tr>
   <tr>
     
-<td bgcolor='yellow' > <input type="text"  style="background-color:Black; color:Green;" > </td>
+<td bgcolor='yellow' > <input type="text"  style="background-color:Black; color:Red;" > </td>
   </tr>
   <tr>
 <td> <input type="button" value="submit" OnClick="document.write('Recorded')"> </td>
